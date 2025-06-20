@@ -35,6 +35,7 @@ Professor Muuva -->
         id="add-movie-btn"
         class="btn waves-effect waves-light"
         type="button"
+        onclick="addMovie()"
       >
         Add Movie
       </button>
@@ -43,8 +44,37 @@ Professor Muuva -->
       <ul id="movie-list" class="collection">
         <!-- Movies will be added here dynamically -->
       </ul>
+
+      <hr>
+      <div class="input-field">
+        <input
+          id="movie-search"
+          type="text"
+          class="validate"
+          placeholder="Search for title"
+        />
+      </div>
+      <button
+        id="search-movie-btn"
+        class="btn waves-effect waves-light"
+        type="button"
+        onclick="searchMovie()"
+      >
+        Search
+      </button>
+
+      <button
+        id="showAllMovies"
+        class="btn waves-effect waves-light"
+        type="button"
+        onclick="showAllMovies()"
+        style="visibility:hidden"
+      >Show all of the Movies</button>
     </div>
 
     <script src="js/main.js"></script>
+   
+      
+    
   </body>
 </html>
