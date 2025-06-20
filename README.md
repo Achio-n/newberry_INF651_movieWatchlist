@@ -9,3 +9,6 @@ Added functionality allows the user to exit out of search by clicking the show a
 
 In addition, a test has been added to ensure a duplicate movie is not being added
 
+Possible future enhancements: 
+//-implement categories
+//-add sorting by rating or release date
